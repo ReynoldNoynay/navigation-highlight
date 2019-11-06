@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
+  background-color: none;
   line-height: 1.5;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background-color: #79756f;
+  background-color: #ffe500;
   border-top: 5px solid #595652;
   border-bottom: 5px solid #595652;
   padding: .6em;
@@ -51,12 +51,13 @@ nav ul {
 nav a {
   display: inline-block;
   padding: .5em .75em;
-  background-color: #713837;
+  background-color: #2f2d13;
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
+  opacity: 10%;
 }
 
 .cards a:hover {
-  background-color: #f33;
+  background-color: #cc1465;
 }
