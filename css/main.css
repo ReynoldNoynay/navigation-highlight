@@ -36,37 +36,30 @@ h1 {
   text-align: center;
   width: 100%;
   margin-top: 0;
+  text-decoration: none;
 }
 
 .nav li {
-  display: inline-block;
   background-color: #79756f;
   display: inline-block;
   padding: .5em .75em;
   background-color: #2f2d13;
   border-radius: 4px;
   color: #fff;
-  text-decoration: none;
-  opacity: 50%;
+
 }
 
 nav ul {
-  margin: 0;
+  margin: .3em;
   padding: 0;
 }
 
-nav a {
-  display: inline-block;
-  padding: .5em .75em;
-  background-color: #2f2d13;
-  border-radius: 4px;
-  color: #fff;
-  text-decoration: none;
-  opacity: 50%;
+ a:hover {
+  background-color: #cc1465;
 }
 
-.cards a:hover {
-  background-color: #cc1465;
+p {
+  font-family: Georgia;
 }
 
 .footer{
@@ -74,4 +67,12 @@ nav a {
   padding: .2em .5em .3em;
   font-family: "Georgia";
   t
+}
+
+img {
+  width: 100%;
+  display: block;
+  padding: 0 10px;
+  padding-top 15px;
+  padding-bottom: 5px;
 }
