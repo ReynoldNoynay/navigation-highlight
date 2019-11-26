@@ -80,7 +80,8 @@ p {
   background-color: #ffe500;
   font-family: Georgia;
   text-align: center;
-  margin: 5% 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 img {
