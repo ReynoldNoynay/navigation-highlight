@@ -29,6 +29,9 @@ h1 {
    font-family: "Sigmar One";
    color: #b20954;
    font-size: 1.875rem;
+   text-align: left;
+   padding-left: 1rem;
+
    /**Make Text Flow Left**/
    }
 body {
@@ -72,6 +75,8 @@ nav .current {
 
 p {
   font-family: Georgia;
+  text-align: left;
+  padding-left: 1rem;
 }
 
 .footer{
