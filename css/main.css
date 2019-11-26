@@ -15,7 +15,7 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: .6em;
+  padding: .5em;
 }
 
 h1 {
@@ -29,6 +29,7 @@ h1 {
    font-family: "Sigmar One";
    color: #b20954;
    font-size: 1.875rem;
+   /**Make Text Flow Left**/
    }
 body {
   margin: 0;
@@ -41,15 +42,19 @@ body {
 }
 
 .nav li {
-  display: inline-block;
-  background-color: #79756f;
-  display: inline-block;
+    display: inline-block;
+}
+.nav a {
+  font-family: Georgia, sans-serif;
+  color: white;
+  background-color: #b2a212;
   padding: .5em .75em;
-  background-color: #2f2d13;
   border-radius: 4px;
-  color: #fff;
   text-decoration: none;
-  opacity: 50%;
+}
+
+nav a:hover {
+background-color: #cc1465;
 }
 
 nav ul {
@@ -57,8 +62,8 @@ nav ul {
   padding: 0;
 }
 
-.cards a:hover {
-  background-color: #cc1465;
+nav a :hover {
+  background-color: #b20953;
 }
 
 p {
@@ -69,13 +74,12 @@ p {
   background-color: #ffe500;
   padding: .2em .5em .3em;
   font-family: "Georgia";
-  t
 }
 
 img {
   width: 100%;
   display: block;
   padding: 0 10px;
-  padding-top; 15px;
+  padding-top: 15px;
   padding-bottom: 5px;
 }
