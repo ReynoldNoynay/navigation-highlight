@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Georgia, sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,14 +10,13 @@ html {
 
 body {
   text-align: center;
-  font-family: sans-serif;
   color: #2f2d13;
   margin: 0;
 }
 
 header {
   background-color: #ffe500;
-  padding: .5em;
+  padding-bottom: .3em;
 }
 
 h1 {
@@ -31,7 +31,6 @@ h2 {
   color: #b20954;
   font-size: 1.875rem;
   text-align: left;
-  padding-left: 1rem;
 }
 
 .nav {
@@ -39,19 +38,20 @@ h2 {
   text-align: center;
   width: 100%;
   margin-top: 0;
-}
 
+}
 .nav li {
   display: inline-block;
 }
 
 .nav a {
-  font-family: Georgia, sans-serif;
   color: white;
   background-color: #b2a212;
-  padding: .5em .75em;
+  padding: .2em .5em .3em;
   border-radius: 4px;
   text-decoration: none;
+  display: inline-block;
+  font-size: 1.125rem;
 }
 
 nav a:hover {
@@ -72,22 +72,24 @@ nav .current {
 }
 
 p {
-  font-family: Georgia;
   text-align: left;
-  padding-left: 1rem;
 }
 
-.footer p {
+footer {
   background-color: #ffe500;
-  font-family: Georgia;
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: .75em;
+}
+
+footer small {
+  font-size: .875rem;
 }
 
 img {
   width: 100%;
   display: block;
-  padding: 0 10px;
-  padding-bottom: 5px;
+}
+
+main {
+  padding: 0 .75em;
 }
